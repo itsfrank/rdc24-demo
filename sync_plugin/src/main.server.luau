@@ -22,9 +22,9 @@ type Entry = {
     },
 }
 
-print("plugin reloaded")
-local tb = plugin:CreateToolbar("Asset Demo")
-local btn = tb:CreateButton("foo", "A Button", "rbxassetid://9087232887")
+print("sync plugin reloaded...")
+local tb = plugin:CreateToolbar("Sync")
+local btn = tb:CreateButton(".", "A Button", "rbxassetid://9087232887")
 
 local plugin_enabled = false
 
